@@ -1,0 +1,265 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author: Jacob Bowman  
+   Date:   3/27/2024  
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.6em;
+    color: black;
+	background-color: white;
+}
+
+#container {
+    width: 930px;
+    border-width: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+
+/* Table Styles */
+
+table.Lessons {
+    background: white;
+    border: 10px outset rgba(232,78,54,1);
+    font-size: 0.75em;
+    width: 100%;
+}
+
+
+/* Table Cell Styles */
+
+table.Lessons th, table.Lessons td {
+    border: 1px solid black;
+    padding: 5px;
+    vertical-align: top;
+}
+
+
+
+/* Table Caption Styles */
+
+table.Lessons caption {
+    caption-side: bottom;
+    text-align: right;
+}
+
+/* Row Group Styles */
+
+table.Lessons thead {
+    background: rgba(232,78,54,1);
+    color: white;
+}
+
+table.Lessons tfoot {
+    background: black;
+    color: white;
+}
+
+table.Lessons thead tr {
+    height: 30px
+}
+
+table.Lessons tbody tr {
+    height: 40px
+}
+
+
+
+
+/* Column Group Styles */
+
+col#firstCol {
+    background: rgba(232,78,54,1);
+    width: 16%;
+    
+}
+
+col#dayCols {
+    background: rgba(232,78,54,1);
+    width: 12%;
+}
+
+
+/* Legend Styles */
+
+legend {
+    background-color: rgba(232,78,54,1);
+    color: white;
+    padding: 5px;
+}
+
+/* Text Area Styles */
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+}
+
+
+/* Spinner Styles */
+
+
+
+/* Form Button Styles */
+
+div#buttons {
+    text-align: center;
+    width:75%;
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 0.9em;
+    padding: 5px;
+    margin: 15px;
+}
+
+
+
+header {
+    width: 925px;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 0px;
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid #888888;
+    border-radius: 25px;
+    background-color: rgba(232,78,54,1);
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+nav ul li a {
+    padding: 5px;
+    color: rgba(232,78,54,1);
+    text-decoration: none;
+    display:block;
+    background-color: white;
+}
+
+nav ul li a:hover {
+    background: black;
+    border-radius: 10px;
+    color: rgba(232,78,54,1);
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: black;
+    border-left: 2px solid;
+    border-right: 2px solid;    
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.75em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+}
+
+aside p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.9em;
+    color: black;
+    text-align:center;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+    color: rgba(232,78,54,1);
+}
+
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    color: rgba(232,78,54,1);
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(232,78,54,1);
+    clear: both;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}/* navigation for footer */
+
+
+footer a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:visited {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
